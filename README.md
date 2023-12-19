@@ -14,3 +14,7 @@ Go to [MongoDB](https://www.mongodb.com) to set up free Tier DB.
 
 ### Authorization
 authorization is basically when the user is logged in, they have functions or they can do things that a non-logged in users can't do. So logged in user can hit API endpoints that a normal user would not be able to.
+
+## FrontEnd
+### Setup
+in the root directory, run `npx create-react-app client` to build a new FrontEnd project named `client`
