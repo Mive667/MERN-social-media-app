@@ -1,8 +1,7 @@
-import {  BrowserrOUTER, Navigate, Routes, Route, BrowserRouter } from 'react-router-dom';
-import HomePage from 'sences/homePage';
-import LoginPage from 'sences/loginPage';
-import ProfilePage from 'sences/profilePage';
-
+import { BrowserRouter, Navigate, Routes, Route } from "react-router-dom";
+import HomePage from "sences/homePage";
+import LoginPage from "sences/loginPage";
+import ProfilePage from "sences/profilePage";
 
 function App() {
   <BrowserRouter>
@@ -11,13 +10,9 @@ function App() {
       <Route path="/home" element={<HomePage />} />
       <Route path="/profile/:userId" element={<ProfilePage />} />
     </Routes>
-  </BrowserRouter>
+  </BrowserRouter>;
 
-  return (
-    <div className="app">
-
-    </div>
-  );
+  return <div className="app"></div>;
 }
 
 export default App;
